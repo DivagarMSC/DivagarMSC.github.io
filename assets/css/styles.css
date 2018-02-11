@@ -1,0 +1,95 @@
+#logo{
+  max-height:42px;
+  margin-right:2px;
+  margin-top:-3px;
+  display:inline-block;
+}
+
+body{
+  font-family:Arial,Helvetica,sons-serif;
+}
+
+#promo{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/max-payne-3-211041.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+@media (max-width:767px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+div.jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(237,235,235,0.75);
+  max-width:800px;
+  margin:auto;
+}
+
+@media (max-width:767px) {
+  div.jumbotron{
+    padding:20px;
+  }
+}
+
+.dark.section{
+  background-color:#e1f2f0;
+  margin-right:-10px;
+}
+
+.site-section{
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.site-section h1{
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:60px;
+}
+
+#welcome p{
+  max-width:800px;
+  font-size:20px;
+  margin:auto;
+  color:#666;
+}
+
+#why .item{
+  padding-top:30px;
+}
+
+#why .row{
+  margin-right:20px;
+}
+
+#why .item i{
+  font-size:40px;
+  color:rgb(45,0,0);
+}
+
+#why .item h2{
+  font-weight:normal;
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size:25px;
+}
+
+#why .item p{
+  color:#87b4b1;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover{
+  background-color:yellow;
+  border-color:transparent;
+}
+
+#promo h1{
+  font-size:50px;
+}
+
